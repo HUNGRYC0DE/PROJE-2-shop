@@ -1,243 +1,240 @@
-
-.box{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    align-items: center;
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
 }
-image{
-    padding: 0;
-    margin: 0;
+image {
+  padding: 0;
+  margin: 0;
 }
-.center{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    border-radius: 12px;
+.center {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  border-radius: 12px;
 }
 @media (max-width: 1260px) {
-    .center{
-        width: 100%;
-    }
-    .head{
-        justify-content: center;
-    }
-}
-.header{
-    background-image: url(img.jpg);
-    height: 380px;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    align-items: center;
-}
-.header h1{
-    justify-content: center;
-}
-.head{
-    background-color: rgba(196, 42, 162, 0.253);
-    height: 50px;
-    display: flex;
+  .center {
     width: 100%;
-    justify-content: space-between;
+  }
+  .head {
+    justify-content: center;
+  }
 }
-.link{
-    height: 50px;
-    display: flex;
-    flex-direction: row;
+.header {
+  background-image: url(img.jpg);
+  height: 380px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
 }
-.head h3{
-    margin: 10px 10px 0;
+.header h1 {
+  justify-content: center;
 }
-.boxIteam h3{
-    margin: 10px 0 0;
+.head {
+  background-color: rgba(196, 42, 162, 0.253);
+  height: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
-.head img{
-    padding: 8px;
-    width: 34px;
-    height: 34px;
-    position: relative;
-    margin-left: 20px;
+.link {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.head h3 {
+  margin: 10px 10px 0;
+}
+.boxIteam h3 {
+  margin: 10px 0 0;
+}
+.head img {
+  padding: 8px;
+  width: 34px;
+  height: 34px;
+  position: relative;
+  margin-left: 20px;
 }
 .iteamPlus {
-    display: flex;
-
+  display: flex;
 }
-a{
-    text-decoration:none;
-    color: black;
-    font-size: larger;
-    margin: 0;
-    text-align: center;
+a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  margin: 0;
+  text-align: center;
 }
-a:hover{
-    border: solid black 1px;
-    background: yellow;
-    opacity: 1;
+a:hover {
+  border: solid black 1px;
+  background: yellow;
+  opacity: 1;
 }
-a:active{
-    background: green;
+a:active {
+  background: green;
 }
-.img img{
-    background-size: cover;
-    width: 100%;
-    height: auto;
+.img img {
+  background-size: cover;
+  width: 100%;
+  height: auto;
 }
-.main{
-    display: flex;
-    flex-direction: column;
+.main {
+  display: flex;
+  flex-direction: column;
 }
-.work{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.work {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-.work div{
-    align-items: center;
-    border: solid green 3px;
-    border-radius: 12px;
-    margin: auto;
+.work div {
+  align-items: center;
+  border: solid green 3px;
+  border-radius: 12px;
+  margin: auto;
 }
-.boxIteam{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border-radius: 12px;
+.boxIteam {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
 }
-.boxIteam div{
-    align-items: center;
-    margin: 3% 3% 0;
-
+.boxIteam div {
+  align-items: center;
+  margin: 3% 3% 0;
 }
 .iteamTitle {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 #iteam-1 {
-    background-image: url(images-m1.jpeg);
-    background-size: cover;
-    width: 100%;
-    height: 200px;
-    margin: 0;
+  background-image: url(images-m1.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  margin: 0;
 }
 #iteam-2 {
-    background-image: url(images_m2.jpeg);
-    background-size: cover;
-    width: 100%;
-    height: 200px;
-    margin: 0;
+  background-image: url(images_m2.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  margin: 0;
 }
 #iteam-3 {
-    background-image: url(images_m3.jpeg);
-    background-size: cover;
-    width: 100%;
-    height: 200px;
-    margin: 0;
+  background-image: url(images_m3.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  margin: 0;
 }
 #iteam-4 {
-    background-image: url(images_m4.jpeg);
-    background-size: cover;
-    width: 100%;
-    height: 200px;
-    margin: 0;
+  background-image: url(images_m4.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  margin: 0;
 }
 .plus {
-    height: 20px;
-    width: auto;
+  height: 20px;
+  width: auto;
 }
-.off{
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    color: azure;
+.off {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  color: azure;
 }
-.offBig{
-    width: 30%;
-    background-image: url(off1.jpeg);
-    height: 200px;
-    margin: 20px;
-    background-size: cover;
-    justify-content: center;
+.offBig {
+  width: 30%;
+  background-image: url(off1.jpeg);
+  height: 200px;
+  margin: 20px;
+  background-size: cover;
+  justify-content: center;
 }
-.offSmal{
-    width: 70%;
-    background-image: url(off2.jpeg);
-    height: 200px;
-    margin: 20px;
-    background-size: cover;
+.offSmal {
+  width: 70%;
+  background-image: url(off2.jpeg);
+  height: 200px;
+  margin: 20px;
+  background-size: cover;
 }
-.offBig h3{
-    position: relative;
-    text-align: center;
-    justify-content: center;
-    top: 80%;
+.offBig h3 {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  top: 80%;
 }
-.offSmal h3{
-    position: relative;
-    text-align: center;
-    justify-content: center;
-    top: 80%;
+.offSmal h3 {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  top: 80%;
 }
-.khelas{
-    background-color: black;
-    color: aliceblue;
-    height: 60px;
-    margin: 0;
+.khelas {
+  background-color: black;
+  color: aliceblue;
+  height: 60px;
+  margin: 0;
 }
-.khelas h4{
-    margin: 0;
-    position: relative;
-    text-align: center;
-    justify-content: center;
-    top: 35%;
+.khelas h4 {
+  margin: 0;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  top: 35%;
 }
 @media (max-width: 600px) {
-    body{
-        font-size: small;
-    }
-    h3{
-        margin: 14px;
-    }
-    .offBig{
-        width: 50%;
-    }
-    .offSmal{
-        width: 50%;
-    }
+  body {
+    font-size: small;
+  }
+  h3 {
+    margin: 14px;
+  }
+  .offBig {
+    width: 50%;
+  }
+  .offSmal {
+    width: 50%;
+  }
 }
 @media (max-width: 480px) {
-    body{
-        font-size: x-small;
-    }
-    h3{
-        margin: 16px 8px;
-    }
-    .work{
-        flex-direction: column;
-    }
-    .work div{
-        width: 80%;
-        margin-top: 15px;
-    }
-    .boxIteam{
-        flex-direction: column;
-    }
-    .boxIteam div{
-        width: 60%;
-    }
-    .off{
-        flex-direction: column;
-        align-items: center;
-    }
-    .ma {
-        margin-top: 15px;
-    }
-    .head img{
-        padding: 12px;
-        height: 26px;
-        width: 26px;
-        margin-left: 10px;
-    }
+  body {
+    font-size: x-small;
+  }
+  h3 {
+    margin: 16px 8px;
+  }
+  .work {
+    flex-direction: column;
+  }
+  .work div {
+    width: 80%;
+    margin-top: 15px;
+  }
+  .boxIteam {
+    flex-direction: column;
+  }
+  .boxIteam div {
+    width: 60%;
+  }
+  .off {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ma {
+    margin-top: 15px;
+  }
+  .head img {
+    padding: 12px;
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+  }
 }
